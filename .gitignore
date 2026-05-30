@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Data (тяжёлые файлы не коммитим в репозиторий)
+*.zip
+*.csv
+*.wav
+*.mp3
+data/
+gtzan_data/
+
+# Модели
+*.pth
+*.pt
+
+# Системные
+.DS_Store
+Thumbs.db
+
+# Kaggle credentials (никогда не коммитим!)
+kaggle.json
+~/.kaggle/
